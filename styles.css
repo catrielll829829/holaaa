@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #005599;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #003366;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #005599;
+}
+
+/* Mantén el resto del CSS para la estructura del contenido */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+section.resultados {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+section.resultados h2 {
+    color: #003366;
+    text-align: center;
+}
+
+.numeros-ganadores {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.bolilla {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #003366;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.bolilla:hover {
+    background-color: #ffd700;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #003366;
+    color: white;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 18px;
+}
